@@ -1,15 +1,15 @@
-### Example of custom AtlasResourceMapper 
+# Example of custom AtlasResourceMapper 
 
-#### Background
+## Background
 
-In order to sync tags between Apache Atlas and Ranger, [ranger-tagsync-service](https://cwiki.apache.org/confluence/display/RANGER/Tag+Synchronizer+Installation+and+Configuration).
+In order to sync tags between Apache Atlas and Ranger, [ranger-tagsync-service](https://cwiki.apache.org/confluence/display/RANGER/Tag+Synchronizer+Installation+and+Configuration) needs to be used.
 
 By default it supports tag synchronization for Hadoop services like hive etc.
 
 If you have custom types used in Atlas then additional java class is required to handle mapping, 
 between those types in Atlas and service in Ranger.
 
-#### How to run
+## How to run
 
 1. Run standard mvn package command to build jar
 
